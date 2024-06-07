@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Add this CSS to your existing styles.css file */
+.table img {
+    width: 600px; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+}

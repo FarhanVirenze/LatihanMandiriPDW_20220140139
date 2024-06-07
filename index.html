@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Demon Slayer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Demon Slayer</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section1">Opening Lagu Demon Slayer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section2">Data Hashira</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="container mt-5">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/image/carousel1.jpg" class="d-block w-100" alt="Image 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/image/carousel2.jpg" class="d-block w-100" alt="Image 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/image/carousel3.jpg" class="d-block w-100" alt="Image 3">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Section 1 -->
+    <section id="section1" class="container mt-5">
+        <h2>Opening Demon Slayer</h2>
+        <p>Gurenge merupakan sebuah lagu yang dinyyanyikan oleh penyanyi wanita Jepang yang bernama LiSA untuk opening anime Demon Slayer.</p>
+        <audio id="audio" controls>
+            <source src="./assets/audio/LiSA - Gurenge.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <button id="playPauseBtn" class="btn btn-primary mt-3">Play/Pause Audio</button>
+        <div class="mt-3">
+            <video id="video" width="320" height="240" controls>
+                <source src="./assets/video/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <button id="playPauseVideoBtn" class="btn btn-secondary mt-3">Play/Pause Video</button>
+            <p>Akaza Bertemu Iblis Bulan Atas.</p>
+        </div>
+    </section>
+
+
+    <!-- Section 2 -->
+    <section id="section2" class="container mt-5">
+        <h2>Data Hashira</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="./assets/image/hashira1.jpg" alt="Thumb 1" class="img-thumbnail"></td>
+                    <td>Gyomei Himejima</td>
+                    <td>Hashira Batu</td>
+                </tr>
+                <tr>
+                    <td><img src="./assets/image/hashira2.jpg" alt="Thumb 2" class="img-thumbnail"></td>
+                    <td>Shinazugawa Sanemi</td>
+                    <td>Hashira Angin</td>
+                </tr>
+                <tr>
+                    <td><img src="./assets/image/hashira3.jpg" alt="Thumb 3" class="img-thumbnail"></td>
+                    <td>Tomioka Giyu</td>
+                    <td>Hashira Air</td>
+                </tr>
+                <tr>
+                    <td><img src="./assets/image/hashira4.jpg" alt="Thumb 4" class="img-thumbnail"></td>
+                    <td>Obanai Iguro</td>
+                    <td>Hashira Ular</td>
+                </tr>
+                <tr>
+                    <td><img src="./assets/image/hashira5.jpg" alt="Thumb 5" class="img-thumbnail"></td>
+                    <td>Muichirp Tokito</td>
+                    <td>Hashira Kabut</td>
+                </tr>
+                <tr>
+                    <td><img src="./assets/image/hashira6.jpg" alt="Thumb 5" class="img-thumbnail"></td>
+                    <td>Rengoku Kyojuro</td>
+                    <td>Hashira Api</td>
+                </tr>
+                <tr>
+                    <td><img src="./assets/image/hashira7.jpg" alt="Thumb 5" class="img-thumbnail"></td>
+                    <td>Mitsuri Kanroji</td>
+                    <td>Hashira Cinta</td>
+                </tr>
+                <tr>
+                    <td><img src="./assets/image/hashira8.jpg" alt="Thumb 5" class="img-thumbnail"></td>
+                    <td>Uzui Tengen</td>
+                    <td>Hashira Suara</td>
+                </tr>
+                <tr>
+                    <td><img src="./assets/image/hashira9.jpg" alt="Thumb 5" class="img-thumbnail"></td>
+                    <td>Shinobu Kocho</td>
+                    <td>Hashira Serangga</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Accordion -->
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Upper Moon
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        Kokushibo, Douma, Akaza, Hantengu, Nakime, Gyokko, Daki dan Gyutaro, Kaigaku
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Lower Moon
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        Enmu, Rokuro, Wakuraba, Mukago, Rui, Kamanue, Kyogai
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mt-5">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label><br>
+                <input type="radio" name="gender" value="male" required> Male
+                <input type="radio" name="gender" value="female" required> Female
+            </div>
+            <div class="form-group">
+                <label for="newsletter">Subscribe to newsletter:</label><br>
+                <input type="checkbox" name="newsletter" id="newsletter"> Yes
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2024 My Webpage</p>
+            <p id="current-time"></p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./script/main.js"></script>
+</body>
+</html>
